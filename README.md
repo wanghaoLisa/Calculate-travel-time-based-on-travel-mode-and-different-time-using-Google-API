@@ -16,3 +16,4 @@ https://developers.google.com/maps/documentation/distance-matrix/intro
         }
  with open('gdm.json', 'a') as f:#'gdm.json' is the json file saved to the same directory as this python file
 
+This is modified on the basis of Oliver Frolovs's code. https://gist.github.com/olliefr/407c64413f61bd14e7af62fada6df866
