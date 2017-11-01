@@ -76,7 +76,7 @@ if __name__ == '__main__':
                 'origins' :'|'.join(origins),
                 'destinations' :'|'.join(destinations),
                 'mode' :'driving',
-                'departure_time':de_time,#hw
+                'departure_time':de_time,
                 'key' :api_key
         }
     
@@ -117,7 +117,7 @@ if __name__ == '__main__':
 #                            print('{} to {}: status = {}'.format(src, dst, cell['status']))
     
                 # Of course, we could have also saved the results in a file,
-                with open('gdm.json', 'a') as f:
+                with open('gdm.json', 'a') as f:#'gdm.json' is the saved .json file name, in the same directory as this python file
                     f.write(r.text)
                     f.write(str(de_time))
     
