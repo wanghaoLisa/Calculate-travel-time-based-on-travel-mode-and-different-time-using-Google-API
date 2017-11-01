@@ -15,5 +15,4 @@ https://developers.google.com/maps/documentation/distance-matrix/intro
                 'key' :api_key #your api key
         }
  with open('gdm.json', 'a') as f:#'gdm.json' is the json file saved to the same directory as this python file
-                    f.write(r.text)
-                    f.write(str(de_time))
+
